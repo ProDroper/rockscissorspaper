@@ -24,6 +24,7 @@ def main():
 	
 	while (n >0):
 		you = input("rock? scissors? paper? : ")
+		you = you.lower()
 		
 		# set computer's fingers
 		computer = random.randint(1,3)
